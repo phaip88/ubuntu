@@ -15,5 +15,8 @@ docker run -d \
 协议：tcp  端口：22
 挂载硬盘：data   /home/$SSH_USER
 
+sudo chown -R $USER:$USER / home/$USER
+
 curl -sk -0 ~/.bashrc https://raw.githubusercontent.com/phaip88/ubuntu/refs/heads/main/.bashrc 
+
 curl -sk -o ~/.profile https://raw.githubuserconntent.com/phaip88/ubuntu/refs/heads/main/.profile
